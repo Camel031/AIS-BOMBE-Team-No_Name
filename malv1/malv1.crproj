@@ -1,0 +1,13 @@
+<project outputDir="Confused" baseDir="." xmlns="http://confuser.codeplex.com">
+  <rule pattern="true" preset="maximum">
+    <protection id="anti tamper" />
+    <protection id="constants" />
+    <protection id="ctrl flow" />
+    <protection id="invoked" />
+    <protection id="rename" />
+    <protection id="ref proxy" />
+  </rule>
+  <module path="..\bin\malv1.exe">
+      <!-- 視您的編譯輸出路徑調整，如果是 Framework 4.7.2 可能是 bin\Release\malv1.exe -->
+  </module>
+</project>
